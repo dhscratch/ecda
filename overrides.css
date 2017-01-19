@@ -1,0 +1,1804 @@
+/*
+general style edits not native to customizer
+*/
+#drs-browse-header-row h6 {
+    font-size:14px !important;
+}
+.drs-item-creator {
+    font-size: 15px;
+}
+/*custom search/filter feature on page listings*/
+
+.list-wrap label {
+    float: left;
+    color: #00BDE8;
+}
+.copyright {
+    color: #26313a !important;
+    background-color: #edeff0 !important;
+}
+footer .northeastern-logo {
+    background-image: url(http://ecda.northeastern.edu/wp-content/themes/quest-child/images/nu-dark.svg) !important;
+}
+.search-box {
+    max-width: 100% !important;
+    height: 60px;
+    text-align: center !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+    padding: 20px!important;
+    font-size: 2em;
+    font-family: "Quicksand" !important;
+    font-weight: 300;
+    border: none !important;
+    border-bottom: 1px solid #5b85a1 !important;
+    color: #5b85a1 !important;
+    margin-bottom: 20px !important;
+    margin-top: 0 !important;
+}
+.list-count {
+    padding: .5em;
+    color: rgb(91, 133, 161);
+    font-family:"Quicksand";
+    font-weight: 300;
+    font-size: 22px;
+}
+li {
+    transition-property: margin, background-color, border-color;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: ease-in-out, ease, ease;
+}
+.empty-item {
+    transition-property: opacity;
+    transition-duration: 0;
+    transition-delay: 0;
+    transition-timing-function: ease;
+}
+.empty .empty-item {
+    transition-property: opacity;
+    transition-duration: .2s;
+    transition-delay: .3s;
+    transition-timing-function: ease;
+}
+.hiding {
+    margin-left: -100%;
+    opacity: .5;
+}
+.hidden {
+    display: none;
+}
+.ul {
+    float: left;
+    width: 100%;
+    margin: 2em 0;
+    padding: 0;
+    position: relative;
+}
+.li {
+    float: left;
+    width: 33.3333%;
+    cursor: pointer;
+    color: #333;
+    position: relative;
+    z-index: 2;
+    list-style: none !important;
+    border-left: 5px solid #454545;
+    box-shadow: 1px 0 1px #454545;
+    transition-property: border-left, background-color;
+    -webkit-transition-property: border-left, background-color;
+    -moz-transition-property: border-left, background-color;
+    -o-transition-property: border-left, background-color;
+    transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+}
+.li:hover {
+    background-color: rgba(255, 255, 255, 0.96);
+    border-left: 15px solid #75c8ff;
+    border-radius: 4px;
+}
+.btn-li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #fff !important;
+    z-index: 9;
+    border: none;
+    color: #000;
+    opacity: 1;
+    transition-property: opacity;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+}
+.btn-li:hover {
+    opacity: .1;
+}
+.empty-item {
+    background: #fff;
+    color: #ddd;
+    margin: .2em 0;
+    padding: .5em .8em;
+    font-style: italic;
+    border: none;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+.empty .empty-item {
+    opacity: 1;
+    visibility: visible;
+}
+.cta {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #999;
+    font-family: georgia, times;
+    font-style: italic;
+    margin: 2em 0;
+}
+.cta a {
+    font-size: 1.5em;
+    font-style: normal;
+    font-family:'Maven Pro', sans-serif;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.custom-footer {
+    background-color: #edeff0 !important;
+    color: #bebebe;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+}
+.custom-footer p {
+    font-size: 15px !important;
+}
+.custom-footer a {
+    color: black !important;
+}
+/*remove wp admin bar for logged in user*/
+#wpadminbar {
+  display: none;
+   }
+.nu-header .northeastern-logo {
+    height: 50px;
+    z-index: 9;
+}
+.northeastern-logo {
+    text-shadow: none;
+    color: transparent;
+    width: 100%;
+    height: 30px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    max-width: 215px;
+    display: block;
+    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+    position: relative;
+  margin-bottom: 20px;
+
+}
+/*align site branding content right*/
+ .site-branding {
+    position: absolute;
+    top: 0;
+    right: 75px;
+    padding-top: 0;
+    text-align: right;
+    -webkit-transition: top .5s ease-in-out;
+    transition: top .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.site-description {
+    color: #415563;
+    margin-left: 160px;
+}
+.main-header {
+    background-color: #fff;
+    border-color: #fff;
+    -webkit-transition: height .5s ease-in-out;
+    transition: height .5s cubic-bezier(0.68,-0.55,0.27,1.55);
+}
+.hide-header-image {
+    background-image: none !important;
+}
+.main-header a {
+    color: #415563;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px rgba(85, 109, 127, 0.21);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.nu-header {
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.97);
+    border: none;
+    -webkit-transition: height .5s ease-in-out;
+    transition: height .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    border-bottom: 1px solid rgba(65, 85, 99, 0.08);
+}
+
+#menu-item-1358 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    left: 0;
+    top: -38px;
+    position: absolute;
+    height: 40px;
+}
+#menu-item-1358 > a {
+    border-bottom: 1px solid #a0aab1;
+    height: 39px;
+    cursor: default;
+}
+
+.cd-top {
+    height: 60px;
+    width: 60px;
+    right: 6px !important;
+    bottom: 30px;
+}
+.affix {
+    height: 68px !important;
+    top: 0 !important;
+    left: 0;
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(65, 85, 99, 0.08)!important;
+    z-index: 9;
+    -webkit-transition: all 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+    transition: all 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+}
+.affix #menu-item-1358 > a {
+  border:none !important;
+}
+.affix #menu-item-1358 {
+    top: -9px;
+    height: 0;
+}
+.affix #btn-search {
+    background-color: rgba(65, 85, 99, 0);
+    height: 76px;
+    width: 73px;
+    border-radius: 500px;
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/11/search_grey_nocircle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px;
+}
+.affix-top {
+    top: -80px;
+}
+
+.affix .nav > li {
+    margin-right: 10px !important;
+}
+
+/*align main nav left*/
+ .main-navigation {
+    font-family:"Quicksand" !important;
+    width: 100%;
+    padding-left: 60px;
+    top: 0;
+    height: 60px;
+}
+/*remove caret*/
+ .caret {
+    display: none;
+}
+.fa {
+    color: #415563 !important;
+  opacity:.5;
+    text-shadow: 1px 1px 1px rgba(85, 109, 127, 0.21) !important;
+}
+.fa:hover {
+  opacity:1;
+}
+/*decrease @ icon font-size in menu for better alignment*/
+ .fa-at {
+    font-size: 24px;
+}
+/*make menu hover more visible*/
+ .main-navigation .nav > li.current-menu-parent {
+    border: none;
+}
+li.current-menu-item, .main-navigation .nav > li.current-menu-parent {
+    border-color: #5b85a1 !important;
+    border-top: 6px solid #5b85a1 !important;
+}
+.main-navigation .nav > li {
+    margin-right: 40px;
+    border: none !important;
+}
+.main-navigation .nav > li:hover > a {
+    color: #5B85A1 !important;
+}
+/*
+let's make the submenu of main nav 
+
+match rest of 
+
+site theme
+*/
+
+/*main nav text style*/
+ .main-navigation .nav > li > a {
+    color: #415563;
+    font-family:"Quicksand" !important;
+    font-size: 24px;
+    line-height: 48px !important;
+    padding-top: 6px !important;
+}
+.main-navigation .nav > li.current-menu-item > a, .main-navigation .nav > li.current-menu-parent > a {
+    color: #5B85A1;
+}
+.menu-item-to-front {
+    z-index: 99;
+}
+/*submenu*/
+ .main-navigation .nav .dropdown-menu li:hover > a, .main-navigation .nav .dropdown-menu li:focus > a, .main-navigation .nav .dropdown-menu li.current-menu-item a, .main-navigation .nav .dropdown-menu li.current-menu-ancestor > a {
+    background-color: white;
+    color: #5B85A1;
+}
+#masthead .container {
+    width: 97%;
+    padding: 0;
+}
+
+.logo-item-nav {
+    margin: 0;
+    text-align: left;
+    border-top: 0 !important;
+}
+/*remove border top on active nav li */
+ li.current-menu-item, .main-navigation .nav > li.current-menu-parent {
+    border-color: #5b85a1 !important;
+    border-top: none !important;
+}
+/*
+for custom social icon buttons in @, 
+
+and across rest of site when class is used 
+
+highlight and increase font-size 
+
+for effect and underscore
+*/
+ .btn-social-homepage {
+    background-color: inherit !important;
+    color: black !important;
+    font-size: 21px !important;
+    transition-property: color, font-size !important;
+    -webkit-transition-property: color, font-size !important;
+    -moz-transition-property: color, font-size !important;
+    -o-transition-property: color, font-size !important;
+    transition-duration: .4s !important;
+    -webkit-transition-duration: .4s !important;
+    -moz-transition-duration: .4s !important;
+    -o-transition-duration: .4s !important;
+}
+.btn-social-homepage:hover {
+    color: #1b9cae !important;
+    font-size: 30px !important;
+}
+/*
+emphasize share options
+
+on pages/posts by 
+
+affixing share tools at top of site
+*/
+ div.sharedaddy {
+    position: fixed;
+    top: -13px;
+    right: 53px;
+    height: 66px;
+    color: #fff !important;
+    width: 107px;
+    padding: 17px;
+    z-index: 999;
+    opacity: .8;
+}
+div.sharedaddy:hover {
+    opacity: 1;
+}
+.sd-button:hover {
+    background-color: #1b9cae;
+}
+.sd-title {
+    display: none !important;
+}
+/* make hidden inner container float right and horizontally oriented*/
+ .sharing-hidden .inner {
+    position: absolute;
+    z-index: 2;
+    border: 1px solid #ccc;
+    padding: 8px;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    margin-top: 5px;
+    max-width: 400px;
+    width: 181px;
+    left: -6px !important;
+    top: 53px !important;
+    height: auto;
+}
+/* some light css additons to submenu*/
+ .main-navigation .nav .dropdown-menu {
+    text-align: right;
+    margin-top: 14px !important;
+    transform: translateY(40px);
+    transition: .7s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+}
+/*on mobile view make toggle icon site fixed top right*/
+.navbar-toggle {
+    display:none;
+}
+/*style hr in submenu, reduce margin*/
+ hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-top: 1px solid #5B85A1;
+}
+/*fix modal display to full screen*/
+ .modal-body {
+    max-height: inherit;
+    overflow-y: scroll;
+    position: inherit;
+}
+.close {
+    margin-right: 64px;
+}
+/*make the close icon in modal header more visible by changing color to theme orange*/
+ .modal-header .close {
+    margin-top: -2px;
+    color: #5B85A1;
+    opacity: 1;
+}
+/*remove page/post titles, redundant*/
+ .post-title {
+    display: none;
+}
+#main-menu-collapse {
+    width: 100% !important;
+}
+#menu-drs-main-menu {
+    float: none !important;
+    width: 100% !important;
+}
+/* 
+
+need to adjust search 
+
+on global 
+
+and homepage 
+
+*/
+ #menu-item-search {
+    display: none;
+}
+.menu-item-search-display {
+    display: block !important;
+    opacity: 1;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 999;
+    border-radius: 0;
+    padding-top: 17%;
+    box-shadow: -2px 1px 3px #ccc;
+    font-size: 2em !important;
+    font-weight: 300;
+    background: #fff;
+    text-align: center;
+    background-size: 56% !important;
+    background-repeat: no-repeat !important;
+    background-position: 147% 312px !important;
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/10/noun_search-e1476888418771.png) !important;
+}
+.hide-me {
+    display: none !important;
+}
+.show-me {
+    display: block !important;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    z-index: 99999;
+    border: none;
+    transition-property: opacity, border;
+    -webkit-transition-property: opacity, border;
+    -moz-transition-property: opacity, border;
+    -o-transition-property: opacity, border;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+.show-me:hover {
+    border: 1px solid #ccc;
+    opacity: .5;
+}
+#btn-menu {
+    background-color: rgba(255,255,255,0);
+    border: none;
+    position: relative;
+    top: -5px;
+    height: 27px;
+    width: 59px;
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/10/more-e1484193383923.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+    transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+}
+
+.affix #btn-menu {
+    background-color: rgba(255,255,255,0);
+    border: none;
+    position: relative;
+    top: -5px;
+    height: 21px;
+    width: 59px;
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/10/more-e1484193383923.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.nav-drawer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0 0 80px;
+    right: -2000px;
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/11/menu-dashed-light-3-e1479789039911.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 98% 50%;
+    background-color: #1c2529;
+    background-attachment: fixed;
+    z-index: 9999;
+    -webkit-transition: all 1s ease-in-out !important;
+    transition: all 1s ease-in-out !important;
+}
+.nav-drawer-expanded {
+    right: 0;
+}
+.nav-drawer a {
+    color:white !important;
+}
+.nav-drawer p {
+    color: #d3d3d3 !important;
+    font-size: 18px;
+}
+.nav-body {
+    background: rgba(28, 37, 41, 0.85);
+    height: 100%;
+    overflow: scroll;
+}
+.nav-body h3 {
+    color: #383f43;
+}
+.nav-body-row  {
+    background: rgba(255, 255, 255, 0.02);
+    width: 96%;
+    margin-bottom: 14px;
+}
+.nav-body .fa-caret-right {
+    color: white;
+    font-size: 14px;
+    margin-right:10px;
+}
+#home-menu {
+    height: 100px;
+    width: 100px;
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/11/home-return-light-e1479795210898.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-color: #1c2529;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+#menu-item-2019 {
+    margin-top: 22px;
+    margin-left: -61px;
+    height: 100px;
+    -webkit-transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+    transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+}
+#menu-item-2019 a {
+  opacity:1;
+}
+#menu-item-2019:hover #btn-menu {
+    height: 25px;
+    opacity: 1;
+}
+
+#btn-search {
+    background-color: rgba(255, 255, 255, 0.98);
+    border: none;
+    height: 70px;
+    width: 74px;
+    padding: 0;
+    border-radius: 500px;
+    opacity: 1;
+    left: 412px;
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/11/search_grey_nocircle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu-item-search .fa-search {
+    color: #cedae3 !important;
+    top: 2px;
+    right: 2px;
+    font-size: 18px;
+    opacity: 1;
+    display: none;
+}
+#drs-input {
+    border: none !important;
+    background: rgba(255, 255, 255, 0) !important;
+    border-bottom: solid 1px #e0e0e0 !important;
+    width: 78% !important;
+    color: #5B85A1 !important;
+    font-size: 2em;
+    transition-property: opacity, background, padding, width, height, top, left, right, bottom, font-size;
+    -webkit-transition-property: opacity, background, padding, width, height, top, left, right, bottom, font-size;
+    -moz-transition-property: opacity, background, padding, width, height, top, left, right, bottom, font-size;
+    -o-transition-property: opacity, background, padding, width, height, top, left, right, bottom, font-size;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+/*allow for glow on links hover*/
+ a {
+    color: #415563 !important;
+    opacity: 1;
+    text-shadow: 1px 1px 1px rgba(85, 109, 127, 0.21) !important;
+    cursor: alias;
+  -webkit-transition: all .3s ease-in-out !important;
+   transition: all .3s ease-in-out !important;
+}
+a:hover {
+  opacity: .6;
+}
+/*custom subheading */
+ .h6-subheading {
+    font-family: Didact Gothic;
+    color: #6c6c6c;
+    text-align: justify;
+    font-size: 13px;
+}
+.h6-home {
+    color: #454b51 !important;
+    font-family:'Quicksand';
+    font-size: 24px;
+}
+/*fix page builder css*/
+ .panel-grid-cell .textwidget {
+    width: 100%;
+    text-align: inherit;
+}
+/*need to create empty blocks using this class*/
+ .empty-block {
+    min-height: 800px;
+    height: 800px;
+}
+/*fade anchor buttons*/
+ .btn-faded {
+    opacity: .3;
+    margin-top: 150px;
+}
+.btn-faded:hover {
+    opacity: 1;
+}
+/*minor design edits to page builder for homepage */
+ .col-align-text-center {
+    text-align: center;
+}
+/*add hover property to button in widget*/
+ .btn-pg-bldr {
+    opacity: .6;
+    background-color: #ffffff !important;
+    border: none;
+    font-size: 35px;
+    color: #5B85A1;
+    transition-property: opacity;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+.btn-pg-bldr:hover {
+    opacity: 1;
+    color: #5B85A1 !important;
+}
+/*cannot achieve no border color from page builder UI, so there's this*/
+ .ow-button-base a {
+    border: inherit !important;
+}
+/* 
+
+re-enable  
+
+WP Media Galleries 
+
+comment form
+
+*/
+ #jp-carousel-comment-form-container {
+    display: inline-block !important;
+}
+/*
+fix captions on 
+
+media galleries 
+
+to fit content width
+
+*/
+ .tiled-gallery-caption {
+    background: #eee;
+    background: rgba(255, 255, 255, .8);
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    text-indent: inherit;
+    text-overflow: initial;
+    width: 100%;
+    white-space: normal;
+}
+/*Let's make some minor 
+
+adjustment to CERES
+
+CSS
+
+*/
+
+/*credit text too close to media*/
+ .drstk-caption {
+    margin-top: 20px;
+}
+/*remove credit text italics*/
+ .wp-caption-text {
+    font-style: normal;
+}
+/*
+
+let's make CERES 
+
+media embed standout 
+
+with box shadow
+
+*/
+ .zoomContainer {
+    -webkit-box-shadow: 0 8px 6px -7px rgba(0, 0, 0, 0.3);
+    box-shadow: -8px 11px 7px -6px rgba(0, 0, 0, 0.3);
+}
+/* 
+
+allow user to view 
+
+collection description 
+
+*/
+ figcaption .label {
+    background-color: #585858;
+    color: #c8cdd0;
+}
+/* Home page custom content */
+ .widget-icon {
+    margin-bottom: 0 !important;
+    text-align: right !important;
+}
+/* widget_search */
+ .widget_search #drs-input {
+    box-shadow: none !important;
+    font-size: 21px !important;
+    width: 100% !important;
+    background-color: #f9f9f9 !important;
+    background: #fff !important;
+}
+.widget_search .fa-search {
+    right: 1px !important;
+    top: 9px !important;
+    font-size: 17px !important;
+    color: #b4bcc0 !important;
+}
+.titlebox-home-widgets {
+    background: white;
+    height: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    transition-property: height, bottom, background, opacity;
+    -webkit-transition-property: height, bottom, background, opacity;
+    -moz-transition-property: height, bottom, background, opacity;
+    -o-transition-property: height, bottom, background, opacity;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+.titlebox-home-widgets:hover {
+    height: 400px;
+}
+.subtitle-home-widgets {
+    font-size: 12px;
+    color: #838383;
+    font-family:"Quicksand";
+    font-weight: 700;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    padding-bottom: 10px;
+}
+.item-panel-home {
+    box-shadow: 0 2px 3px 1px #888;
+    -moz-box-shadow: 0 2px 3px 1px #888;
+    -webkit-box-shadow: 0 2px 3px 1px #888;
+}
+.item-box {
+    min-height: 300px;
+}
+.item-content-sm {
+    opacity: .9;
+    background: #001929;
+    padding: 10px;
+    height: 70px;
+    overflow: hidden;
+    bottom: 0;
+    position: absolute;
+    transition-property: height, bottom, background, opacity;
+    -webkit-transition-property: height, bottom, background, opacity;
+    -moz-transition-property: height, bottom, background, opacity;
+    -o-transition-property: height, bottom, background, opacity;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+.item-content-sm:hover {
+    height: 300px;
+    background: #001929;
+    opacity: .9;
+}
+.item-content-lg {
+    opacity: .9;
+    background: #001929;
+    padding: 10px;
+    height: 70px;
+    overflow: hidden;
+    bottom: 0;
+    position: absolute;
+    transition-property: height, bottom, background, opacity;
+    -webkit-transition-property: height, bottom, background, opacity;
+    -moz-transition-property: height, bottom, background, opacity;
+    -o-transition-property: height, bottom, background, opacity;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+.item-content-lg:hover {
+    height: 350px;
+    opacity: .9;
+    background: #001929;
+}
+.item-title {
+    font-family: "Quicksand";
+    font-weight: 500;
+    color: inherit;
+    font-size: 23px;
+    text-shadow: 1px 1px 1px rgba(85,109,127,0.21);
+    padding-top: 9px;
+    padding-left: 9px;
+    display: block;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.item-caption {
+    font-family:"Quicksand";
+    font-size: 15px !important;
+    text-align: right;
+    color: #678ea8;
+    width: 100% !important;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+.item-description {
+    color: #e6e6e6;
+    font-size: 14px !important;
+    line-height: 1.6;
+}
+.news-box {
+    padding: 10px;
+    font-size: 11px !important;
+    background: whitesmoke;
+    list-style-type: none !important;
+}
+.page-builder-column-sm {
+    min-height: 300px;
+}
+.page-builder-column-md {
+    min-height: 400px;
+}
+.page-builder-column-lg {
+    min-height: 500px;
+}
+.btn-lg {
+    background-color: rgba(255, 255, 255, 0) !important;
+    height: 260px !important;
+    width: 100% !important;
+    color: #326298 !important;
+    text-shadow: 1px 1px 1px #797979;
+    font-size: 20px !important;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    font-weight: 700;
+    border-radius: 0 !important;
+    transition-property: background-color;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+.btn-lg:hover {
+    background-color: white !important;
+    color: grey !important;
+}
+.force-height {
+    height: 300px;
+    display: none;
+}
+
+/*
+edit page title 
+
+and breadcrumb 
+
+font styles
+
+*/
+
+#title-container {
+    background-color: #ffffff !important;
+    color: #333 !important;
+    border-color: #e0e0e0 !important;
+    border: none !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+#title-container h3 {
+    color: #516888 !important;
+    font-size: 18px;
+}
+/*edits to breadcrumb*/
+ #title-container ul li a {
+    padding-right: 5px;
+    font-size: 15px;
+    font-family:"Quicksand";
+    font-weight: 500;
+}
+/*fix thumbnail of drs item grid to display equal height*/
+.thumbnail {
+    display: block;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    min-height: 410px;
+    max-height: 410px;
+}
+/*custom drs-docs search and filter feature*/
+.drs-docs-filter {
+    position: relative;
+    background: #fff;
+    display: inline-block !important;
+    text-align: center;
+    padding: 0 300px 0 300px;
+    height: 96px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+    transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+}
+.drs-docs-filter:hover {
+    padding:0;
+}
+/*remove header stuff on drs pages*/
+ .blog .drs-docs-filter {
+    display: block;
+}
+.blog #content {
+    min-height: 900px;
+}
+
+/*styling for sitewide ecda data toggle button and panel*/
+ .btn-ecda-data {
+    width: 54px;
+    height: 54px;
+    border-radius: 500px;
+    border: none;
+    background: none;
+    color: #fff;
+    text-align: left;
+    -webkit-transition: all 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+    transition: all 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+    z-index: 9999;
+}
+.btn-ecda-data:hover {
+}
+#btn-ecda-data-hide {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding: 10px;
+    background: none;
+    border: none;
+}
+#ecda-data-panel {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    z-index: 999999;
+    overflow: scroll;
+    color: #000;
+    font-size: 35px;
+    font-family:"Quicksand";
+    -webkit-transition: all 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+    transition: all 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+}
+.show-ecda-data {
+    position: fixed;
+    top: 0 !important;
+    padding: 20px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+/*custom site branding replaces quest branding*/
+.custom-site-branding {
+    position: absolute;
+    top: 14px;
+    right: 60px;
+    height: auto;
+    text-align: right;
+    font-family: "Quicksand";
+    z-index: 99;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.ecda-site-title {
+    line-height: .5em;
+    font-weight: 300;
+    height: auto;
+    font-style: normal;
+    text-transform: none;
+    color: #415563;
+    text-shadow: 1px 1px 1px rgba(85,109,127,0.21);
+    letter-spacing: 0;
+    padding-right: 30px;
+}
+.page-id-6 .ecda-site-title {
+    line-height: .5em;
+    font-weight: 300;
+    height: 130px;
+    font-style: normal;
+    text-transform: none;
+    color: #415563;
+    text-shadow: 1px 1px 1px rgba(85,109,127,0.21);
+    letter-spacing: 0;
+    padding-right: 30px;
+}
+.custom-site-branding:hover .ecda-site-title {
+    letter-spacing: 1px;
+}
+
+.ecda-site-title a {
+    color: #415563;
+    opacity: 1;
+}
+.ecda-site-title a:hover {
+  color: #415563 !important;
+}
+
+.e {
+    font-size: 50px;
+}
+.page-id-6 .e {
+    font-size: 80px;
+}
+.e:after {
+  content:'arly';
+  width: 0;
+  opacity:0;
+   font-size:0;
+    color: #415563;
+    margin-left: -2px;
+  -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+      
+}
+.e:before {
+   content: 'the';
+  width: 0;
+  opacity:0;
+   font-size:0;
+    color: #415563;
+    margin-left: -2px;
+  -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+}
+.custom-site-branding:hover .e:after {
+    width: 10px;
+  font-size:20px;
+  opacity:1;
+}
+.custom-site-branding:hover .e:before {
+    width: 10px;
+  font-size:20px;
+  opacity:1;
+}
+
+
+.c {
+    color: #6c7b86;
+    font-size: 50px;
+  
+}
+.page-id-6 .c {
+    color: #6c7b86;
+    font-size: 80px;
+  
+}
+.c:after {
+    content:'aribbean';
+   width: 0;
+  opacity:0;
+    font-size: 0;
+    color: #415563;
+    margin-left: -2px;
+  -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+}
+.custom-site-branding:hover .c:after {
+    width: 10px;
+  font-size:20px;
+  opacity: 1;
+}
+.d {
+    color: #a3adb4;
+    font-size: 50px;
+}
+.page-id-6 .d {
+    color: #a3adb4;
+    font-size: 80px;
+}
+.d:after {
+    content:'igital';
+  width: 0;
+  opacity:0;
+    font-size:0;
+    color: #415563;
+    margin-left: -2px;
+  -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+}
+.custom-site-branding:hover .d:after {
+   width: 10px;
+     font-size:20px;
+  opacity:1;
+}
+.a {
+    font-size: 50px;
+    color: #d3d7da;
+}
+.page-id-6 .a {
+    font-size: 80px;
+    color: #d3d7da;
+}
+.a:after {
+    content:'rchive';
+  width: 0;
+  opacity:0;
+    font-size:0;
+    color: #415563;
+    margin-left: -2px;
+  -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+}
+.custom-site-branding:hover .a:after {
+    width: 10px;
+      font-size:20px;
+  opacity:1;
+}
+.ecda-sub-title {
+    color: #415563;
+    margin-right: 21px;
+    width: 400px;
+    float: right;
+    line-height: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(85,109,127,0.21);
+    display: none;
+}
+/**/
+#site-navigation {
+    min-width: 100% !important;
+    padding-left: 60px !important;
+}
+/*custom style for scroll effect*/
+.custom-site-branding-scrolled {
+    position: fixed;
+    top: -8px;
+    right: 0;
+    width: 196px;
+    height: 100px;
+    margin-top: 0;
+    font-size: 30px !important;
+    text-align: left;
+}
+.custom-site-branding-scrolled:hover {
+  width: 460px;
+}
+.ecda-site-title-scrolled {
+    width: 120px;
+    display: inline-block;
+    float: left;
+    letter-spacing: 0;
+}
+.ecda-site-title-letters-scrolled {
+    font-size: 55px !important;
+}
+body {
+    opacity: 1;
+    transition: all 5s ease-in-out;
+}
+
+.body-no-scroll {
+  overflow: hidden !important;
+  position:fixed;
+  top:37px;
+  right:0;
+  width:100%;
+}
+/*Home design*/
+ body.page-id-6 {
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/10/hall_cleanedup.png);
+    background-repeat: no-repeat;
+    background-position: 65% -90px;
+    background-attachment: fixed;
+    background-size: cover;
+
+ 
+}
+.page-id-6 .nu-header {
+    background-color: rgba(255, 255, 255, 0.97);
+  height: 115px;
+    padding-top: 20px;
+    border: none;
+    -webkit-transition: height .5s ease-in-out;
+    transition: height .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    border-bottom: 1px solid rgba(65, 85, 99, 0.08);
+}
+
+.page-id-6 .main-header {
+    background-color: rgba(255, 255, 255, 0.97);
+}
+.page-id-6 #content {
+    background-color: rgba(255, 255, 255, 0.97);
+    min-height: 900px;
+}
+
+
+.secondary-header {
+    color: #afafaf;
+    background-color: #fcfcfc;
+    border-top: none !important;
+    border-bottom: none !important;
+    background: rgba(255, 255, 255, 0.97) !important;
+}
+
+/*homepage-custom*/
+ .home-box {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.bracket-after {
+    height: 227px !important;
+    /*opacity: .7 !important;*/
+    /*background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2017/01/noun-brackets-better-e1484243285517.png) !important;*/
+    background-repeat: no-repeat !important;
+    background-size: 85px;
+    background-position: 100%;
+}
+.col-tall {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/*styling for dynamic grid*/
+ .grid {
+    width: 100%;
+    margin: 100px auto;
+    padding: 15px;
+    list-style: none;
+    counter-reset: li;
+}
+.grid:after {
+    clear: both;
+}
+.grid {
+    zoom: 1;
+}
+.grid .cover {
+    z-index: 2;
+    opacity:1 !important;
+}
+.grid .cover:focus {
+    outline: 0;
+}
+.grid .content {
+    opacity: 0;
+    overflow: hidden;
+    font: 12px Arial, Helvetica;
+    position: relative;
+    overflow:hidden;
+    height: 0px;
+    width: 0px;
+    margin-right:auto;
+    margin-left:auto;
+    /* Ideally: height: 100%; width: 100%; but works at it should just in FF */
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.grid .expanded {
+    opacity: .95;
+    display: block;
+    overflow: visible;
+    padding: 40px;
+    height: 300px;
+    width: 540px;
+    /* Cover the entire area */
+}
+/* -------------------------------- */
+ .grid .close {
+    display: none;
+    border: 1px solid #fff;
+    color: #8c8c8c;
+    background-color: #eeeeee !important;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font: 34px"Quicksand";
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    margin-right: 0;
+    opacity: 1;
+    text-shadow: none;
+}
+.grid .close:hover {
+    color: white;
+    background-color: grey !important;
+}
+.grid .cover .close {
+    display: block;
+    text-align: center;
+}
+/*************************************/
+
+.grid {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+.grid:hover .grid-item {
+    width: 100%;
+    background: rgba(76, 41, 23, 0.75);
+    box-shadow: 0px 0px 17px #2a2a2a inset;
+    height: 200px;
+}
+.grid:hover .item-title {
+    display: none !important;
+}
+.grid:hover .item-description {
+    opacity: 1;
+    color: #d3d7da;
+    font-weight: 500;
+    text-align: right;
+    height: 160px;
+}
+#discover-item, #learn-item, #create-item {
+    background-repeat: no-repeat;
+    background-size: 0;
+    background-position: 100% top;
+  -webkit-transition: all 1s ease-in-out !important;
+    transition: all 1s ease-in-out !important;
+}
+
+.grid:hover #discover-item {
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/09/Memoir-of-the-Life-of-Florence-Hall-pages1and2-e1484347154260.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 0 top;
+}
+.grid:hover #learn-item {
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/09/Screen-Shot-2016-09-18-at-11.41.48-AM-e1484756984104.png);
+    background-repeat: no-repeat;
+    background-size: 452px;
+    background-position:0 top;
+}
+.grid:hover #create-item {
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/09/Screen-Shot-2016-09-18-at-4.17.31-PM-e1484348807742.png);
+    background-repeat: no-repeat;
+    background-size: 310px;
+    background-position: 0;
+}
+.grid-box {
+    background: rgba(65, 85, 99, 0.09);
+    min-height: 200px;
+  max-height: 200px;
+    box-shadow: 0 0 16px #a3adb4 inset;
+    width: 100%;
+    margin: 10px;
+}
+.grid-box-discover {
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/09/Memoir-of-the-Life-of-Florence-Hall-pages1and2-e1484347154260.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 120% top;
+}
+.grid-box-learn {
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/09/Screen-Shot-2016-09-18-at-11.41.48-AM.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.grid-box-create {
+    background-image: url(http://ecda.northeastern.edu/wp-content/uploads/2016/09/Screen-Shot-2016-09-18-at-4.17.31-PM.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.grid-item {
+    list-style-type: none !important;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-height: 70px;
+    color: #dcdcdc !important;
+    font-weight: 500 !important;
+    height: 200px;
+    width: 100%;
+    background: rgba(19, 24, 31, 0.84);
+    -webkit-transition: all .5s ease-in-out !important;
+    transition: all .5s ease-in-out !important;
+}
+
+.grid-item:hover .item-title {
+  color: whitesmoke;
+}
+.grid .grid-item .grid-title {
+    display: block;
+    -webkit-transition: all .5s ease-in-out !important;
+    transition: all .5s ease-in-out !important;
+}
+.grid .grid-item:hover .grid-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    padding-top: 16px;
+    padding-left: 17px;
+    width: 140px;
+    display: inline;
+}
+.grid .item-description {
+    font-size: 18px !important;
+    font-weight: 100;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+    display: block;
+    width: 253px;
+    margin: auto;
+    margin-right: 0;
+    padding: 12px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    right: 19px;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out !important;
+    transition: all .5s ease-in-out !important;
+}
+
+.grid .grid-item .content.expanded {
+    width: 97.5%;
+    height: auto;
+    min-height: 950px;
+    margin: 1%;
+    padding: 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    font-weight: 300;
+    font-family:"Open Sans";
+    z-index: 9999;
+}
+.content.expanded {
+    border-top: 4px solid #74808a;
+    background-color: #fff !important;
+    color: #2f383e !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    opacity: 1 !important;
+    cursor: auto !important;
+    position: fixed !important;
+    width: 100% !important;
+    padding: 75px !important;
+    top: 0 !important;
+    bottom: 0;
+    left: 0 !important;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 500px !important;
+    overflow: scroll;
+    z-index: 999;
+    margin: 0 !important;
+    text-align:left;
+}
+.content.expanded.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 60px;
+}
+.content-title {
+    font-size: 45px;
+}
+.grid-top {
+    height: 200px;
+    margin-top: -50px;
+}
+.grid-item img {
+    opacity:.5;
+}
+.about-title {
+    font-size: 53px;
+    font-weight: 500;
+}
+.connect {
+    position: absolute;
+    left: 42%;
+    top: 20px;
+    width: 100%;
+    height: 31px;
+    -webkit-transition: all .5s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+    transition: all .5s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+}
+.page-id-1757 .connect {
+    position: fixed;
+    left: 30px;
+    top: 250px;
+    padding-top: 20px;
+    width: 50px;
+    -webkit-transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
+}
+.home-connect {
+    font-size: 32px !important;
+    color: rgb(210, 210, 210) !important;
+    height: 35px;
+    margin-right: 50px;
+    width: 35px;
+    text-align: center;
+    opacity: .6;
+    -webkit-transition: all .5s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+    transition: all .5s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+    text-shadow: none;
+}
+.home-connect:hover {
+    opacity:.9;
+}
+.page-id-1757 .home-connect {
+    font-size: 20px !important;
+    color: #fff !important;
+    margin-bottom: 50px;
+    opacity: .5;
+    border-radius: 500px;
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 9px;
+}
+
+/*undo auto collapse setting on menu for mobile views*/
+.collapse {
+    display: inherit;
+    visibility: visible;
+}
+/*mobile fixes*/
+
+
+@media (max-width: 767px) {
+    .main-header .main-navigation .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0) !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    #drs-input {
+        font-size: 16px !important;
+    }
+    .site-branding .logo, .site-branding .site-title, .site-branding .site-description {
+        text-align: right;
+    }
+    .nu-header {
+        height:80px;
+     
+    }
+    .e,.c,.d,.a {
+    font-size: 55px;
+    }
+    .custom-site-branding {
+        position: absolute;
+        top: 73px;
+        right: 93px;
+        width: auto;
+        text-align: right;
+        font-family:"Quicksand";
+        -webkit-transition: top .5s ease-in-out;
+        transition: top .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+    .ecda-site-title {
+        line-height: 4.5em;
+        font-weight: 300;
+        font-style: normal;
+        text-transform: none;
+        color: #415563;
+        font-size: 31px;
+        letter-spacing: -19px;
+        text-shadow: 1px 1px 1px rgba(85, 109, 127, 0.21);
+    }
+    .ecda-sub-title {
+        color: #415563;
+        line-height: 1.5em;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        word-spacing: 2px;
+        font-size: 10px;
+    }
+}
+
+p {
+  font-size: 18px !important;
+} 
+.large {
+    font-size: 36px !important;
+    font-weight: 100;
+    font-family: Helvetica Neue, sans-serif;
+    letter-spacing: 2px;
+    color: #434649;
+    margin-top: 31px;
+    margin-bottom: 52px;
+}
+.medium {
+    font-size: 26px !important;
+    font-weight: 100;
+    font-family: Helvetica Neue, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-top: 20px;
+}
+
+
+html {
+  margin-top: 0 !important;
+}
+
+/*userpro styles*/
+/*profile pages*/
+#profile-header {
+    background-attachment: fixed;
+    background-position: center top;
+}
+/*styles for bookmarks widget on page/post frontend*/
+.userpro-button {    
+  color: #666 !important;
+    border: solid 1px #ddd !important;
+    box-shadow: inset 0 2px rgba(255,255,255, .8) !important;
+    background: #fff !important;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#415563)) !important;
+    background: -moz-linear-gradient(0% 0% 270deg,#f8f8f8, #fff) !important;
+    -webkit-appearance: none;
+}
+.bookmarked-avatar img {
+    margin: 3px;
+    height: 70px;
+    width: 70px;
+    border-radius: 500px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.bookmarked-avatar img:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 0;
+}
+#profile-picture img {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
