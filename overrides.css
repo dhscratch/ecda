@@ -628,11 +628,17 @@ and homepage
     right: 7px;
 }
 #menu-item-2019 {
-    margin-top: 22px;
-    margin-left: -61px;
-    height: 100px;
-    -webkit-transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
-    transition: all 1.2s cubic-bezier(0.18,0.89,0.32,1.28) !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #fbfbfb;
+    margin: 0;
+    width: 58px;
+    box-shadow: 0px 0px 9px #e5e9eb inset;
+    padding-top: 12px;
+    -webkit-transition: all 1.2s ease-in-out !important;
+    transition: all 1.2s ease-in-out !important;
 }
 #menu-item-2019 a {
   opacity:1;
