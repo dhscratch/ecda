@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Personography index for ecda transcription corpus">
+<meta name="author" content="The Early Caribbean Digital Archive">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personography Index: the Early Caribbean Digital Archive project</title>
+</head>
+<body>
+  <div id="listPerson">
+    <div class="person" id="pers-eden-phillpotts">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Picture_of_Eden_Phillpotts.jpg" style="width: 250px;height:auto;" />
+      <div class="persName">Eden Phillpotts
+      </div>
+      <div class="note" id="eden-phillpotts-bio" title="Author Data">
+          (Wikipedia Entry: <a href="https://en.wikipedia.org/wiki/Eden_Phillpotts">view full</a>) Eden Phillpotts was an English author, poet and dramatist. He was born in Mount Abu, British India, educated in Plymouth, Devon, and worked as an insurance officer for 10 years before studying for the stage and eventually becoming a writer.</div>
+      <div class="birth" title="Birth Data">
+        <div class="date" id="" title="Date of Birth">4 November 1862
+        </div>
+        <a href="#" class="placeName" id="" title="Birthplace"> Mount Abu, British India</a>
+        <div class="geo" title="location-data">24.5925, 72.7083</div>
+        <div class="note"></div>
+      </div>
+      <div class="death" title="Death Data">
+        <div class="date" id="" title="Date of Death">29 December 1960
+        </div>
+        <a href="#" class="placeName" id="" title="Deathplace">Broadclyst, England</a>
+        <div class="geo" title="location-data">50.766667, -3.433333</div>
+        <div class="note"></div>
+      </div>
+      <div class="publications" id="bibl" title="Publications Data">
+        <div class="title">The Obi Man</div>
+        <div class="author">Phillpotts, Eden</div>
+        <div class="publisher">Harper's Weekly: a Journal of Civilization</div>
+        <div class="pubPlace">New York, NY</div>
+        <div class="date">1893</div>
+      </div>
+    </div>
+    <!-- repeat <div class="person" id=""></div> container -->
+  </div>
+  <div id="listPlace">
+    <div class="place" id="place-caribbean-sea">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Caribbean_general_map.png" style="width:250px;height:auto;" />
+      <div id="placeName">Caribbean Sea</div>
+      <div class="note" id="placeDesc">(Wikipedia entry:<a href="https://en.wikipedia.org/wiki/Caribbean_Sea">view full</a>) The Caribbean Sea (Spanish: Mar Caribe; French: Mer des Caraïbes Dutch: Caraïbische Zee) is a sea of the Atlantic Ocean in the tropics of the Western Hemisphere. The entire area of the Caribbean Sea, the numerous islands of the West Indies, and adjacent coasts, are collectively known as the Caribbean. </div>
+      <div class="geo" title="location-data">15, -75</div>
+    </div>
+    <!-- repeat <div class="place" id=""></div> container -->
+  </div>
+  <div id="listEvent">
+    <div class="event" id="event-1">
+      <img src="http://ecda.northeastern.edu/wp-content/uploads/2017/02/phillpottseden-obiman-1893.jpg" style="width: 100px; height:100px; border-radius: 500px;overflow:hidden;" class="listevent-img" />
+      <div class="eventName" id="">Name1</div>
+      <div class="note eventDesc">Description...</div>
+      <div id="eventDate">
+        <div id="start-date">1800</div>
+        <div id="end-date"></div>
+      </div>
+      <div id="eventPlace">
+        <div id="placeName">Placename</div>
+        <div id="geo"></div>
+      </div>
+    </div>
+  </div>
+  <!-- repeat <div class="event" id="eventID"></div> container -->
+  <div class="listBibl">
+    <div class="bibl" id="bibl-obiman-phillpotts-1893">
+      <div class="note biblDesc">
+        <a href="http://ecda.northeastern.edu/wp-content/uploads/2017/02/phillpottseden-obiman-1893.jpg"><img src="http://ecda.northeastern.edu/wp-content/uploads/2017/02/phillpottseden-obiman-1893.jpg" style="width:250px;height:auto;" /></a>
+      </div>
+      <div class="title">The Obi Man</div>
+      <div class="author"><div class="persName" id="pers-eden-phillpotts">Phillpotts, Eden</div></div>
+      <div class="date">1893</div>
+      <div class="publisher"><div class="orgName" id="harpers-weekly">Harper's Weekly</div></div>
+      <div class="pubPlace"><div class="placeName" id="nyc-ny">NYC, New York</div></div>
+      <div class="file">File Access: <a href="http://ecda.northeastern.edu/browse">View</a></div> 
+    </div>
+    <!-- repeat <div class="bibl" id=""></div> container -->
+  </div>
+  <div id="listKeyterm">
+    <div class="keyterm" id="term-embedded">
+      <div class="keytermName" id="">Embedded(ness)(narrative)</div>
+      <div class="keytermDesc">The concept of the embedded text or narrative can be attributed to the work of Nicole N. Aljoe (see <em>Creole Testimonies</em>).<img src="https://i1.wp.com/ecda.northeastern.edu/wp-content/uploads/2017/02/nicole-aljoe-bio-pic.jpg" /> The term refers to narratives or testimonies by enslaved or formally enslaved subjects included within other works, oftentimes fragmented quotation or interpelated verbal encounters between the speaker and a narrator or interviewer. Aljoe contends that embedded narratives constitute a commonplace mode through which these subjects stories and experiences were historically archived by, most oftenly, the records of empire.</div>
+      <div class="keytermRef"> <a href=""></a></div>
+    </div>
+    <div class="keyterm" id="term-obeah">
+      <img src="http://ecda.northeastern.edu/wp-content/uploads/2016/08/Illustration_at_page_212_Folk-lore_volume_1_1890-e1428326275705.png" style="width: 250px;height:auto;" />
+      <div class="keytermName" id="">Obeah (Obi)</div>
+      <div class="keytermDesc">(Wikipedia entry: <a href="https://en.wikipedia.org/wiki/Obeah">view full</a>) Obeah (sometimes spelled Obi, Obea, or Obia) is a term used in the West Indies to refer to folk magic, sorcery, and religious practices developed among West African slaves, specifically of Igbo origin. Obeah is similar to other Afro-American religions including Palo, Vodou, Santería, and Hoodoo. Obeah is practiced in Haiti, The Bahamas, Barbados, Belize, Dominica, Jamaica, Guyana, Suriname, Trinidad and Tobago and other Caribbean nations.</div>
+      <div class="keytermRef">Wikipedia <a href="https://en.wikipedia.org/wiki/Obeah">https://en.wikipedia.org/wiki/Obeah</a></div>
+    </div>
+  </div>
+  <div id="listOrg">
+    
+  </div>
+</body>
+</html>
